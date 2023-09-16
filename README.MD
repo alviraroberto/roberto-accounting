@@ -1,5 +1,7 @@
 
 # ALVIRA ACCOUNTING
+# robertoelcontable
+# 
 
 ### NAV BAR
 
@@ -18,7 +20,7 @@ Un Carousel resaltando los servicios:
 
 - Enfocando tus finanzas con tus objetivos empresariales
 - Evaluación y recomendación de procesos operacionales, procedimientos
--
+- Over 30 years 
 -
 
 
@@ -27,16 +29,26 @@ Un Carousel resaltando los servicios:
 
 - Contabilidad Empresarial
     - Operaciones + Nóminas
-    - Presupuesto
-    - Reportes
-    - Impuestos
+    - Presupuesto + Proyecciones
+    - Reportes + Estados Financieros
+    - Impuestos 
     - Integraciones de Programas
 
-- Auditorías
-    - Análisis financiero 
+- Auditorías y Cumplimiento
+    - Análisis financiero
+    - Recomendación de procesos
+    - Mejorar eficencias operacionales
 
 Sistemas Financieros
     - Optimizar procesos financieros de empresa manteniendo 
+    - Consultoría en manejo de finanzas en áreas empresas  privadas, sector público, sin fines de lucro, bienes raíces, empresas emergentes y entre otros
+
+- Impuestos
+    - Planificación y consultoría
+    - Asistencia en beneficios, pagos y regulaciones
+
+
+
 
 
 Auditorías
@@ -59,8 +71,13 @@ Ensure proper allocation and tracking of grant funds.
 Provide guidance on grant application processes.
 
 By offering these internal auditing services, you can help organizations improve their financial controls, mitigate risks, enhance operational efficiency, and ensure compliance with regulations, ultimately contributing to their overall success and financial integrity.
+-
+Optimization: Streamline accounting and finance processes for efficiency and cost savings. Offer recommendations for improving financial operations.
 
-### Formulario
+Startup Financial Planning: Offer financial guidance to startups and small businesses, helping them with financial planning, fundraising, 
+
+
+### Formulario de Contacto
 
 Nombre
 
@@ -72,6 +89,7 @@ Título
 
 Mensaje
 
+
 Enviar (Botón)
 
 
@@ -79,10 +97,3 @@ Enviar (Botón)
 
 - Regiones: San Juan y Nueva York
 
-
-
-
-
-    Optimization: Streamline accounting and finance processes for efficiency and cost savings. Offer recommendations for improving financial operations.
-
-    Startup Financial Planning: Offer financial guidance to startups and small businesses, helping them with financial planning, fundraising, 
