@@ -1,16 +1,20 @@
-
+body{
+    margin: 0;
+    overflow-x:hidden;
+}
 .container {
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
     width: 100%;
-    padding:0;
-    background-color:#f7faf8;
+    margin: 0;
+
+
+    padding: 1;
+  
+    flex:1;
 }
 
 
 /* área de navegación */
-
-
 
 .nav-container {
     width: 100%;
@@ -19,6 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
+
     box-shadow: rgba(149, 157, 165, 0.15) 0px 3px 6px 0px;
 
 
@@ -33,7 +38,7 @@
 }
 
 .nav-left > p {
-    font-size: 23px;
+    font-size: 1em;
     color: dimgray;
 }
 
@@ -44,6 +49,8 @@
     position: relative;
     text-decoration: none;
     color: dimgray;
+    width:200px;
+    justify-content: space-around;
 
 }
 
@@ -57,7 +64,7 @@
  .service-container {
     width: 100%;
     height: 400px;
-    background-image: url("img-carousel-background-3.jpg");
+    background-image: url("img-background-4.jpg");
     padding: 0;
     margin: 0;
     display:flex;
@@ -84,10 +91,11 @@
     margin-left:10%;
 }
 
-.barra{
-    width: 20px;
+.barra {
+    width: 30px;
     height: 150px;
-    background-color:white;
+    background-color:#ffffff;
+    margin-right: 5px;
 
 
 }
@@ -95,58 +103,76 @@
 .msg-services-text {
     position: relative;
     padding: 5px;
-    color: rgb(246, 243, 243);
+    color: rgb(255, 255, 255);
     text-shadow: 5px 2px 13px #000000;
-    font-size: 30px;
+    font-size: 34px;
 }
 
 
 /* SECCIÓN DE SERVICIOS */
 
-section > .seccion-servicio {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(235, 235, 237);
-    overflow: hidden;
-
+.titulo-seccion {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color:darkolivegreen;
+    margin: 5 auto;
 
 }
+
+
+
+ .seccion-servicios {
+    width: 100%;
+    margin: 5 auto;
+    margin-bottom: 10px;
+}
+
 
 .grid-container {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     overflow: visible;
-    margin: 0 auto;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     box-sizing: border-box;
     position: relative;
     outline: none;
     grid-column: 1;
+    margin-top: 5px;
 
 }
 
 
 .contenedor-servicios {
-    display: flex;
+    display: block;
     flex-direction: block;
-    height: 500px;
+    height: 455px;
     width: 300px;
     flex-wrap: wrap;
-    margin: 8px auto;
+    margin: 20px auto;
+    justify-content: space-around;
+    border-bottom: 2px solid #bbd6c0;
+
     
 }
 
 .titulo-images {
     margin: 0 auto;
-    height: 300px;
+    height: 240px;
 }
 
 .titulo-images > h4 {
     font-size: 22px;
-    margin: 0 auto;
+    margin: 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .img-serv {
@@ -156,26 +182,101 @@ section > .seccion-servicio {
 }
 
 .texto-servicio {
-    font-size: 20px;
-    color: black
+    color: black;
     text-align: center;
-    margin: 0 auto;
-    line-height: 25px;
+    justify-content: center;
+    height: 200px;
+    padding-top: 15px;
 
 }
 
 .texto-servicio > p {
+    font-size: 18px;
+
+}
+
+
+
+/* Sección de contacto */
+
+.seccion-contactar {
+    display:block;
+    position: relative;
+    height:300px;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    background-color:#bbd6c0;
+    
+}
+
+#titulo-contacto {
     margin: 0 auto;
 }
 
 
+
+.contacto-email {
+margin: 0 auto;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+position:relative;
+padding: 0 8px;
+border-radius: 2px;
+width: 76%;
+max-height: 50px;
+transition: all 0.2s ease-in-out 0s;
+font-size: 16px;
+line-height: 20px;
+font-weight: normal;
+:focus{
+outline: none;
+border: 1px solid #007c89;
+box-shadow: inset 0 0 0 1px #007c89;
+}
+
+}
+
+#area-mensaje {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    line-height: 20px;
+}
+
+
+#enviar-btn{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+
 /*  FOOTER SECTION */
 footer {
-    position: relative;
     display: flex;
+    position: relative;
     justify-content: center;
-    align-items:center;
-    background-color:rgb(74, 74, 74);
-    height: 25px;
-    color:aliceblue
+    align-items: center;
+    background-color:dimgray;
+    height: 35px;
+    color:aliceblue;
+    margin: 0 auto;
 }
+
+footer > p {
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+/* @media only screen and (max-width: 450px) {
+
+
+} */
